@@ -4,6 +4,7 @@
 ## Features
 
 - Easily replace the main image and it will show transparently through the grass.
+- Responsive design looks great on any device
 - Offers three sections for the user to dig (scroll) through.
 - Basic craft table styles.
 - Popup screen-shots with [Facebox2](http://fancyapps.com/fancybox/).
