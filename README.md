@@ -6,7 +6,7 @@
 - Offers three sections for the user to dig (scroll) through.
 - Easily replace the main image and it will show transparently through the grass.
 - Responsive design looks great on any device
-- Basic craft table styles.
+- Provides styles for displaying craft recipies.
 - Popup screen-shots with [Facebox2](http://fancyapps.com/fancybox/).
 - Code syntax highlighting with [Prettify](https://code.google.com/p/google-code-prettify/).
 - Built using the sleek, intuitive, and powerful [Twitter Bootstrap](http://getbootstrap.com).
