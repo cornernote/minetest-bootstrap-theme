@@ -7,7 +7,7 @@
 - Easily replace the main image and it will show transparently through the grass.
 - Responsive design looks great on any device
 - Provides styles for displaying craft recipies.
-- Popup screen-shots slidshow using [Facebox2](http://fancyapps.com/fancybox/).
+- Popup screenshot slideshow using [Facebox2](http://fancyapps.com/fancybox/).
 - Code syntax highlighting using [Prettify](https://code.google.com/p/google-code-prettify/).
 - Built using the sleek, intuitive, and powerful [Twitter Bootstrap](http://getbootstrap.com).
 - Does not require the above css/js libraries to be downloaded locally thanks to [cdnjs](http://cdnjs.cloudflare.com/).
@@ -17,6 +17,7 @@
 
 - **[Documentation](http://cornernote.github.io/minetest-bootstrap-theme)**
 - **[GitHub Project](https://github.com/cornernote/minetest-bootstrap-theme)**
+- **Minetest Forum**
 
 
 ## Support
