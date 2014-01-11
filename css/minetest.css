@@ -1,0 +1,247 @@
+@import url("//fonts.googleapis.com/css?family=Press+Start+2P");
+
+/**
+ * page styles
+ */
+body {
+    margin-top: 50px;
+    background-image: url(../img/textures/default_stone.png);
+    font-size: 180%;
+    color: #eee;
+}
+
+#content a {
+    text-decoration: underline;
+    color: #eee;
+}
+
+#content a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6, .caption {
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+h2, h3, h4, h5, h6 {
+    padding-top: 20px;
+}
+
+/**
+ * force the anchors to go to the right position
+ * http://stackoverflow.com/questions/9047703/fixed-position-navbar-obscures-anchors
+ */
+
+a[id] {
+    display: block;
+    padding-top: 60px;
+    margin-top: -60px;
+}
+
+#stone {
+    padding-top: 40px;
+    margin-top: -40px;
+}
+
+/**
+ * navbar styles
+ */
+
+.navbar {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    background-image: -webkit-linear-gradient(#484e55, #3a3f44 60%, #313539);
+    background-image: linear-gradient(#484e55, #3a3f44 60%, #313539);
+    background-repeat: no-repeat;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff484e55', endColorstr='#ff313539', GradientType=0);
+    filter: none;
+}
+
+/* fix navbar disappearing - http://stackoverflow.com/questions/14493533/really-weird-redraw-behavior-with-anchor-links-twitter-bootstrap-fixed-navbar */
+.affix, .navbar-fixed-top {
+    -webkit-transform: scale3d(1, 1, 1);
+}
+
+.navbar-brand, #header .lead, #header .btn {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.navbar-default .navbar-brand {
+    color: #eee;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ddd;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #eee;
+}
+
+/**
+ * header styles
+ */
+#header {
+    background: #8BB9F9 url("../img/header.png") repeat-x scroll center;
+}
+
+#header-bg {
+    background: transparent url("../img/textures/dirt_grass.png") repeat-x scroll center bottom -64px;
+}
+
+#header .jumbotron {
+    background: transparent;
+    border: 0;
+    text-align: center;
+}
+
+#header .jumbotron h1 {
+    color: #111;
+}
+
+#header .jumbotron small {
+    color: #222;
+}
+
+#header .jumbotron a.btn {
+    margin-bottom: 5px;
+}
+
+#header .lead {
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+/**
+ * jumbotron styles
+ */
+
+.jumbotron {
+    background-image: url(../img/textures/default_water.png);
+    color: #333;
+}
+
+.jumbotron h2 {
+    color: #222;
+    padding-top: 0;
+}
+
+/**
+ * section styles
+ */
+
+.section {
+    padding-bottom: 60px;
+}
+
+.section-dirt {
+    background: url(../img/textures/default_dirt.png) center top 40px;
+    border-bottom: 6px solid #333;
+}
+
+/**
+ * footer styles
+ */
+
+#footer {
+    border-top: 6px solid #333;
+    background-image: url(../img/textures/default_lava.png);
+    padding-top: 20px;
+}
+
+#footer .well {
+    padding-top: 0;
+    background: #eee url(../img/textures/wool_white.png);
+    color: #111;
+}
+
+#footer .well h3 {
+    margin-top: 0;
+}
+
+#footer .well a {
+    color: #000;
+    font-weight: bold;
+}
+
+#footer small {
+    color: #000;
+}
+
+/**
+ * big square borders
+ */
+
+pre, .well, .thumbnail, .jumbotron {
+    border-radius: 0 !important;
+    border: 4px solid #333;
+}
+
+pre.prettyprint {
+    border: 4px solid #333 !important;
+}
+
+.btn {
+    border-radius: 0;
+    border-width: 4px;
+}
+
+/**
+ * thumbnail styles
+ */
+
+.thumbnail {
+    margin-bottom: 0;
+}
+
+.caption {
+    margin-bottom: 20px;
+}
+
+/**
+ * craft styles
+ */
+
+.craft {
+    font-family: 'Press Start 2P', cursive;
+    background-image: url(../img/textures/default_wood.png);
+    font-size: 200%;
+    text-align: center;
+    color: #ccc;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+    line-height: 1em;
+    letter-spacing: 0.1em;
+}
+
+/**
+ * github ribbon styles
+ */
+
+.ribbon {
+    background-color: #a00;
+    overflow: hidden;
+    position: absolute;
+    right: -3em;
+    top: 4em;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-box-shadow: 0 0 1em #888;
+    -webkit-box-shadow: 0 0 1em #888;
+}
+
+.ribbon a {
+    border: 1px solid #faa;
+    color: #fff;
+    display: block;
+    font: bold 60% 'Press Start 2P', cursive;
+    margin: 0.05em 0 0.075em 0;
+    padding: 0.6em 3.5em;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+}
