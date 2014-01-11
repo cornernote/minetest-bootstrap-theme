@@ -306,3 +306,34 @@ li.L5, li.L6, li.L7, li.L8 {
     text-decoration: none;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
 }
+
+
+/**
+ * accordion styles
+ */
+
+h2.panel-title, h3.panel-title, h4.panel-title, h5.panel-title {
+    margin-top: 0;
+}
+
+.panel-group h4.panel-title {
+    padding-top: 0;
+}
+
+#content .panel-group h4.panel-title a, #content .panel-group h4.panel-title a:hover {
+    text-decoration: none;
+}
+
+#content .panel-default > .panel-heading {
+    background: #888;
+}
+
+#content .panel-group .panel-heading + .panel-collapse .panel-body {
+    border-top: 4px solid #333;
+}
+
+#content .panel-group .panel {
+    border-radius: 0;
+    border: 4px solid #333;
+    background: #999;
+}
