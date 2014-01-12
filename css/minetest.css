@@ -209,21 +209,21 @@ pre, .well, .thumbnail, .jumbotron {
  * craft styles
  */
 
+.craft {
+    background: #ccc;
+    text-align: center;
+	border: 4px solid #333;
+}
 pre.craft {
     font-family: 'Press Start 2P', cursive;
-    background-image: url(../img/backgrounds/default_wood.png);
-    font-size: 200%;
-    text-align: center;
-    color: #ccc;
+    font-size: 150%;
+    color: #333;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
     line-height: 1em;
     letter-spacing: 0.1em;
 }
 
 div.craft {
-	text-align: center;
-	border: 4px solid #333;
-	background: #ccc;
 	padding: 5px;
 	line-height: 0;
 	letter-spacing: -4px;
