@@ -123,9 +123,15 @@ a[id] {
     color: #333;
 }
 
-#content .jumbotron h2 {
+#content .jumbotron h1, #content .jumbotron h2 {
     color: #222;
     padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#content .jumbotron p {
+    line-height: normal;
 }
 
 #content .jumbotron a, #content .jumbotron a:hover {
