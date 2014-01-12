@@ -21,7 +21,7 @@ body {
     color: #fff;
 }
 
-h1, h2, h3, h4, h5, h6, .caption {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Press Start 2P', cursive;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
 }
@@ -189,19 +189,6 @@ pre, .well, .thumbnail, .jumbotron {
 .btn {
     border-radius: 0;
     border-width: 4px;
-}
-
-
-/**
- * thumbnail styles
- */
-
-.thumbnail {
-    margin-bottom: 0;
-}
-
-.caption {
-    margin-bottom: 20px;
 }
 
 
