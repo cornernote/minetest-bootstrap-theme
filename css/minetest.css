@@ -209,7 +209,7 @@ pre, .well, .thumbnail, .jumbotron {
 }
 pre.craft {
     font-family: 'Press Start 2P', cursive;
-    font-size: 150%;
+    font-size: 175%;
     color: #333;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
     line-height: 1em;
@@ -217,21 +217,21 @@ pre.craft {
 }
 
 div.craft {
-	padding: 5px;
-	line-height: 0;
-	letter-spacing: -4px;
+    padding: 5px;
+    line-height: 0;
+    letter-spacing: -4px;
 }
 
 div.craft span {
-	border: 2px solid #373737;
-	border-right-color: #FFF;
-	border-bottom-color: #FFF;
-	background-color: #8B8B8B;
-	height: 30px;
-	width: 30px;
-	margin: 1px;
-	display: inline-block;
-	vertical-align: middle;
+    border: 2px solid #373737;
+    border-right-color: #FFF;
+    border-bottom-color: #FFF;
+    background-color: #8B8B8B;
+    height: 30px;
+    width: 30px;
+    margin: 1px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 
@@ -302,7 +302,7 @@ li.L5, li.L6, li.L7, li.L8 {
     overflow: hidden;
     position: absolute;
     right: -3em;
-    top: 4em;
+    top: 3.5em;
     -moz-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     -moz-box-shadow: 0 0 1em #888;
